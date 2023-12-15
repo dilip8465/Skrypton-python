@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+    </head>
+    
+        <script>
+        
+            function first()
+            {
+                let a1=document.getElementById("t1").value;
+                alert("Do you want to continue!!");
+                console.log(a1);
+    
+            }
+        </script>
+
+    <body style="text-align: center;background-color: aquamarine;">
+       Entered text: <input type="text" id="t1" placeholder="Enter Text"></input><br>
+       <button type="button" onclick="first();">submit</button>
+    
+
+    </body>
+</html>
